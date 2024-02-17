@@ -1,14 +1,21 @@
 body {
     font-family: "Open Sans", sans-serif;
 }
-
+/* *{
+    padding: 0;
+    margin: 0;
+} */
 
 /* nav styles */
+.header{
+    background-color: #FFF8F3;
+}
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 0px 200px;
 }
 
 .primary-color {
@@ -45,4 +52,15 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* banner part */
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .banner-img{
+    width: 500px;
 }
