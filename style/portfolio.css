@@ -166,15 +166,47 @@ main {
     margin-bottom: 70px;
     padding: 35px;
 }
-.skill-title{
+
+.skill-title {
     color: #181818;
     font-weight: 700;
 }
-.title-description{
+
+.title-description {
     font-size: 16px;
     color: #757575;
 }
+
 /* resume column style */
-.resume-column-title{
-    
+.resume-container {
+    display: flex;
+    gap: 70px;
+    margin-bottom: 50px;
+}
+
+.resume-column-title {
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-item-title {
+    color:#474747;
+    font-size: 25px;
+    font-weight: 700;
+}
+.resume-institution {
+    color:#757575;
+    font-size: 20px;
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+.resume-description{
+    color:#757575;
+    font-size: 16px;
+}
+.download-cv{
+    text-align: center;
+    margin-bottom: 110px;
 }
