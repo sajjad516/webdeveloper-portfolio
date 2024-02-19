@@ -208,13 +208,30 @@ main {
 }
 .download-cv{
     text-align: center;
-    margin-bottom: 110px;
+    margin-bottom: 100px;
 }
 
 /* footer part start */
 
 footer{
     display: flex;
+    gap: 100px;
     background-color: #FFF8F3;
-    padding: 130px 200px;
+    padding: 100px 200px;
+}
+.footer-column{
+    width: 50%;
+}
+.social-icon a{
+    margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+    display: block;
+    margin-bottom: 25px;
+    padding: 18px 30px;
+    color:#757575;
+    border: none;
+    border-radius: 5px;
+    background-color: #FFF;
+    width: 100%;
 }
